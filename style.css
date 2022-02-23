@@ -4,50 +4,121 @@ body{
 }
 
 .testimonials{
+    margin-top: 50px;
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows: 250px 250px;
-    column-gap: 20px;
-    align-self: center;
-    padding: 50px 250px;
-}
-
-.card{
-    border-radius: 10px;
-    padding: 25px;
-}
-
-.card-1{
-    width: 370px;
-    height: 180px;
-    background-color: var(--violet);
-    grid-column: span 2;
+    grid-template-columns: 25rem 25rem 25rem 25rem;
+    grid-template-rows: 25rem 25rem;
+    gap: 2rem;
+    /* align-content: center; */
+    justify-content: center;
     
 }
 
+.card{
+    box-sizing: border-box;
+    border-radius: 1rem;
+    height: 25rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.card-1{
+    background: var(--violet);
+    width: 52rem;
+    grid-column: span 2;
+
+}
+
 .card-2{
-    width: 150px;
-    height: 180px;
-    background-color: var(--dark-gray);
+    background: var(--dark-gray);
+    width: 25rem;
 }
 
 .card-3{
-    width: 150px;
-    height: 430px;
-    background-color: var(--white);
+    background: var(--white);
     grid-row: span 2;
+    width: 25rem;
+    height: 52rem;
 }
 
 .card-4{
-    width: 150px;
-    height: 180px;
-    background-color: var(--white);
-
+    background: var(--white);
+    width: 25rem;
 }
 
 .card-5{
-    width: 370px;
-    height: 180px;
-    background-color: var(--dark-blue);
-    grid-column: span 2;
+    background: var(--dark-blue);
+    width: 52rem;
+    grid-column: span 2 ;
+}
+
+/* .profile{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+.profilePhoto{
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+.quote{
+    display: inline;
+    margin-left: 37rem;
+} */
+
+.quota{
+    display: inline;
+    margin-left: 35rem;
+}
+
+.profile{
+    margin-top: -90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.profile-photo{
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    grid-row: span 2;
+    align-self: center;
+    width: 4.5rem;
+}
+
+.profile-user-name{
+    margin-left: -16.5rem;
+    font-family: var(--fonte);
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.profile-user-graduate{
+    margin-left: -16.5rem;
+    font-family: var(--fonte);
+    font-size: 1.2rem;
+    color: var(--light-gray);
+    font-weight: 500;
+}
+
+.text-intro{
+    font-family: var(--fonte);
+    color: var(--white);
+    font-size: 1.65rem;
+    font-weight: 600;
+
+}
+
+.text-full{
+    margin-top: 2rem;
+    font-family: var(--fonte);
+    color: var(--light-gray);
+    font-size: 1.30rem;
+    font-weight: 500;
 }
