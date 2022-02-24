@@ -47,14 +47,14 @@ body{
 }
 
 .card-4{
-    padding-top: 2.5rem;
+    padding-top: 1.5rem;
     padding-bottom: 2.5rem;
     background: var(--white);
     width: 25rem;
 }
 
 .card-5{
-    padding-top: 2.5rem;
+    padding-top: 1.5rem;
     padding-bottom: 2.5rem;
     background: var(--dark-blue);
     width: 52rem;
@@ -203,4 +203,85 @@ body{
     font-weight: 500;
 }
 
+/* quarto card */
 
+.profile-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.profile-user-name-4{
+    margin-left: -3.2rem;
+    font-family: var(--fonte);
+    color: var(--dark-blue);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.profile-user-graduate-4{
+    margin-left: -3.2rem;
+    font-family: var(--fonte);
+    font-size: 1.2rem;
+    color: var(--light-gray);
+    font-weight: 500;
+}
+
+.text-intro-4{
+    line-height: 1.55rem;
+    font-family: var(--fonte);
+    color: var(--dark-blue);
+    font-size: 1.65rem;
+    font-weight: 600;
+}
+
+.text-full-4{
+    line-height: 1.72rem;
+    margin-top: 2rem;
+    font-family: var(--fonte);
+    color: var(--light-gray);
+    font-size: 1.30rem;
+    font-weight: 500;
+}
+
+/* quinto card */
+.profile-5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.profile-user-name-5{
+    margin-left: -16.5rem;
+    font-family: var(--fonte);
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.profile-user-graduate-5{
+    margin-left: -16.5rem;
+    font-family: var(--fonte);
+    font-size: 1.2rem;
+    color: var(--light-gray);
+    font-weight: 500;
+}
+
+.text-intro-5{
+    line-height: 1.55rem;
+    font-family: var(--fonte);
+    color: var(--white);
+    font-size: 1.65rem;
+    font-weight: 600;
+}
+
+.text-full-5{
+    line-height: 1.72rem;
+    margin-top: 2rem;
+    font-family: var(--fonte);
+    color: var(--light-gray);
+    font-size: 1.30rem;
+    font-weight: 500;
+}
