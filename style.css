@@ -31,11 +31,15 @@ body{
 }
 
 .card-2{
+    padding-top: 1.5em;
+    padding-bottom: 2.5rem;
     background: var(--dark-gray);
     width: 25rem;
 }
 
 .card-3{
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
     background: var(--white);
     grid-row: span 2;
     width: 25rem;
@@ -43,11 +47,15 @@ body{
 }
 
 .card-4{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
     background: var(--white);
     width: 25rem;
 }
 
 .card-5{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
     background: var(--dark-blue);
     width: 52rem;
     grid-column: span 2 ;
@@ -87,7 +95,8 @@ body{
     border-radius: 50%;
     grid-row: span 2;
     align-self: center;
-    width: 4.5rem;
+    width: 4.0rem;
+
 }
 
 .profile-user-name{
@@ -122,3 +131,43 @@ body{
     font-size: 1.30rem;
     font-weight: 500;
 }
+
+.profile-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.profile-user-name-2{
+    margin-left: -3.2rem;
+    font-family: var(--fonte);
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.profile-user-graduate-2{
+    margin-left: -3.2rem;
+    font-family: var(--fonte);
+    font-size: 1.2rem;
+    color: var(--light-gray);
+    font-weight: 500;
+}
+
+.text-intro-2{
+    font-family: var(--fonte);
+    color: var(--white);
+    font-size: 1.65rem;
+    font-weight: 600;
+}
+
+.text-full-2{
+    margin-top: 2rem;
+    font-family: var(--fonte);
+    color: var(--light-gray);
+    font-size: 1.30rem;
+    font-weight: 500;
+}
+
+
