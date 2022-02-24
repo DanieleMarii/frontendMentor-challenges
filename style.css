@@ -61,22 +61,7 @@ body{
     grid-column: span 2 ;
 }
 
-/* .profile{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    
-}
-
-.profilePhoto{
-    border: 1px solid var(--white);
-    border-radius: 50%;
-}
-
-.quote{
-    display: inline;
-    margin-left: 37rem;
-} */
+/* primeiro card */
 
 .quota{
     display: inline;
@@ -117,6 +102,7 @@ body{
 }
 
 .text-intro{
+    line-height: 1.55rem;
     font-family: var(--fonte);
     color: var(--white);
     font-size: 1.65rem;
@@ -125,12 +111,15 @@ body{
 }
 
 .text-full{
+    line-height: 1.55rem;
     margin-top: 2rem;
     font-family: var(--fonte);
     color: var(--light-gray);
     font-size: 1.30rem;
     font-weight: 500;
 }
+
+/* segundo card */
 
 .profile-2{
     display: grid;
@@ -156,6 +145,7 @@ body{
 }
 
 .text-intro-2{
+    line-height: 1.55rem;
     font-family: var(--fonte);
     color: var(--white);
     font-size: 1.65rem;
@@ -163,6 +153,49 @@ body{
 }
 
 .text-full-2{
+    line-height: 1.55rem;
+    margin-top: 2rem;
+    font-family: var(--fonte);
+    color: var(--light-gray);
+    font-size: 1.30rem;
+    font-weight: 500;
+}
+
+/* terceiro card */
+
+.profile-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.profile-user-name-3{
+    margin-left: -3.2rem;
+    font-family: var(--fonte);
+    color: var(--dark-blue);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.profile-user-graduate-3{
+    margin-left: -3.2rem;
+    font-family: var(--fonte);
+    font-size: 1.2rem;
+    color: var(--light-gray);
+    font-weight: 500;
+}
+
+.text-intro-3{
+    line-height: 1.55rem;
+    font-family: var(--fonte);
+    color: var(--dark-blue);
+    font-size: 1.65rem;
+    font-weight: 600;
+}
+
+.text-full-3{
+    line-height: 1.72rem;
     margin-top: 2rem;
     font-family: var(--fonte);
     color: var(--light-gray);
