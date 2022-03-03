@@ -1,15 +1,17 @@
 body{
     background-color: var(--light-blue);
-    
+    /* width: 100%; */
 }
 
 .testimonials{
-    margin-top: 50px;
+    height: 100vh;
+    width: 100vw;
     display: grid;
-    grid-template-columns: 25rem 25rem 25rem 25rem;
+    /* grid-template-columns: 25rem 25rem 25rem 25rem; */
+    grid-template-columns: repeat(4, 25rem);
     grid-template-rows: 25rem 25rem;
     gap: 2rem;
-    /* align-content: center; */
+    align-content: center;
     justify-content: center;
     
 }
@@ -31,7 +33,7 @@ body{
 }
 
 .card-2{
-    padding-top: 1.5em;
+    padding-top: 1.5rem;
     padding-bottom: 2.5rem;
     background: var(--dark-gray);
     width: 25rem;
@@ -68,6 +70,7 @@ body{
     margin-left: 35rem;
 }
 
+/* padrão */
 .profile{
     margin-top: -90px;
     display: grid;
@@ -84,39 +87,56 @@ body{
 
 }
 
-.profile-user-name{
-    margin-left: -16.5rem;
-    font-family: var(--fonte);
-    color: var(--white);
+.profile-user-name-pattern{
     font-size: 1.5rem;
     font-weight: 600;
+    font-family: var(--fonte);
     margin-top: 2rem;
+}
+
+.profile-user-graduate-pattern{
+    font-family: var(--fonte);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--light-gray);
+
+}
+
+.text-intro-pattern{
+    line-height: 1.55rem;
+    font-family: var(--fonte);
+    font-size: 1.65rem;
+    font-weight: 600;
+}
+
+.text-full-pattern{
+    line-height: 1.55rem;
+    margin-top: 2rem;
+    font-family: var(--fonte);
+    font-size: 1.30rem;
+    font-weight: 500;
+    color: var(--light-gray);
+
+}
+
+/* fim padrão */
+
+/* inicio card-1 */
+.profile-user-name{
+    margin-left: -16.5rem;
+    color: var(--white);
 }
 
 .profile-user-graduate{
     margin-left: -16.5rem;
-    font-family: var(--fonte);
-    font-size: 1.2rem;
-    color: var(--light-gray);
-    font-weight: 500;
 }
 
-.text-intro{
-    line-height: 1.55rem;
-    font-family: var(--fonte);
+.text-intro-1{
     color: var(--white);
-    font-size: 1.65rem;
-    font-weight: 600;
-
 }
 
-.text-full{
-    line-height: 1.55rem;
-    margin-top: 2rem;
-    font-family: var(--fonte);
+.text-full-1{
     color: var(--light-gray);
-    font-size: 1.30rem;
-    font-weight: 500;
 }
 
 /* segundo card */
@@ -129,37 +149,24 @@ body{
 
 .profile-user-name-2{
     margin-left: -3.2rem;
-    font-family: var(--fonte);
     color: var(--white);
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-top: 2rem;
 }
 
 .profile-user-graduate-2{
     margin-left: -3.2rem;
-    font-family: var(--fonte);
-    font-size: 1.2rem;
-    color: var(--light-gray);
-    font-weight: 500;
 }
 
 .text-intro-2{
-    line-height: 1.55rem;
-    font-family: var(--fonte);
     color: var(--white);
-    font-size: 1.65rem;
-    font-weight: 600;
 }
 
-.text-full-2{
+/* .text-full-2{
     line-height: 1.55rem;
     margin-top: 2rem;
     font-family: var(--fonte);
-    color: var(--light-gray);
     font-size: 1.30rem;
     font-weight: 500;
-}
+} */
 
 /* terceiro card */
 
@@ -171,36 +178,20 @@ body{
 
 .profile-user-name-3{
     margin-left: -3.2rem;
-    font-family: var(--fonte);
     color: var(--dark-blue);
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-top: 2rem;
 }
 
 .profile-user-graduate-3{
     margin-left: -3.2rem;
-    font-family: var(--fonte);
-    font-size: 1.2rem;
-    color: var(--light-gray);
-    font-weight: 500;
 }
 
 .text-intro-3{
-    line-height: 1.55rem;
-    font-family: var(--fonte);
     color: var(--dark-blue);
-    font-size: 1.65rem;
-    font-weight: 600;
+    
 }
 
 .text-full-3{
     line-height: 1.72rem;
-    margin-top: 2rem;
-    font-family: var(--fonte);
-    color: var(--light-gray);
-    font-size: 1.30rem;
-    font-weight: 500;
 }
 
 /* quarto card */
@@ -213,36 +204,22 @@ body{
 
 .profile-user-name-4{
     margin-left: -3.2rem;
-    font-family: var(--fonte);
     color: var(--dark-blue);
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-top: 2rem;
 }
 
 .profile-user-graduate-4{
     margin-left: -3.2rem;
-    font-family: var(--fonte);
-    font-size: 1.2rem;
     color: var(--light-gray);
     font-weight: 500;
 }
 
 .text-intro-4{
-    line-height: 1.55rem;
-    font-family: var(--fonte);
     color: var(--dark-blue);
-    font-size: 1.65rem;
-    font-weight: 600;
 }
 
 .text-full-4{
     line-height: 1.72rem;
     margin-top: 2rem;
-    font-family: var(--fonte);
-    color: var(--light-gray);
-    font-size: 1.30rem;
-    font-weight: 500;
 }
 
 /* quinto card */
@@ -254,34 +231,20 @@ body{
 
 .profile-user-name-5{
     margin-left: -16.5rem;
-    font-family: var(--fonte);
     color: var(--white);
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-top: 2rem;
 }
 
 .profile-user-graduate-5{
     margin-left: -16.5rem;
-    font-family: var(--fonte);
-    font-size: 1.2rem;
-    color: var(--light-gray);
-    font-weight: 500;
 }
 
 .text-intro-5{
-    line-height: 1.55rem;
-    font-family: var(--fonte);
     color: var(--white);
-    font-size: 1.65rem;
-    font-weight: 600;
 }
 
 .text-full-5{
     line-height: 1.72rem;
-    margin-top: 2rem;
-    font-family: var(--fonte);
-    color: var(--light-gray);
-    font-size: 1.30rem;
-    font-weight: 500;
 }
+
+
+
