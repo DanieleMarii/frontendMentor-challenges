@@ -248,18 +248,54 @@
 }
 
 @media (max-width: 700px){
-  .testimonials {
-    grid-template-columns: 10rem;
-    grid-template-rows: ;
-    gap: 2rem;
+ .testimonials{
+   margin-top: 5rem;
+   margin-bottom: 5rem;
+  height: auto;
+   grid-template-columns: 30rem;
+   grid-template-rows: auto;
+ }
+
+ .card{
+   width: 30rem;
+   max-height: 35rem;
+ }
+
+ .card-1{
+  height: 35rem;
+   width: 30rem;
+   grid-column: span 1;
+ }
+
+  .card-3{
+    height: 33.5rem;
+    order: 5;
+    grid-row: span 1;
   }
 
-  /* .card {
-    width: 25rem;
-    height: 25rem;
-    padding-left: 1.8rem;
-    padding-right: 1.8rem;
-    padding-bottom: 1.8rem;
-  } */
+ .card-5{
+   height: 30rem;
+   width: 30rem;
+   grid-column: span 1;
+ }
 
+.profile-user-name-pattern, .profile-user-graduate-pattern{
+    margin-left: -9.5rem;
+    font-size: 1.2rem;
+}
+
+.profile-photo{
+  width: 2.5rem;
+}
+
+.text-intro-pattern{
+  margin-top: 0;
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+}
+
+.text-full-pattern{
+  font-size: 1.4rem;
+  line-height: 1.2rem;
+}
 }
