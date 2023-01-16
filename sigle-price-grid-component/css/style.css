@@ -1,0 +1,23 @@
+body {
+    font-family: 'Karla', sans-serif;
+    display: grid;
+    grid-template-areas:
+        "join join"
+        "sign-up why-us";
+}
+
+section {
+    border: 1px solid black;
+}
+
+.join {
+    grid-area: join;
+}
+
+.sign-up {
+    grid-area: sign-up;
+}
+
+.why-us {
+    grid-area: why-us;
+}
