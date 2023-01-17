@@ -41,6 +41,8 @@ h2 {
 }
 
 .join {
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
     background: white;
     grid-area: join;
 }
@@ -80,6 +82,7 @@ h2 {
 .sign-up {
     background-color: var(--cyan-dark);
     grid-area: sign-up;
+    border-bottom-left-radius: 0.6rem;
 }
 
 .sign-up > button {
@@ -99,6 +102,7 @@ h2 {
 .why-us {
     background-color: var(--cyan);
     grid-area: why-us;
+    border-bottom-right-radius: 0.6rem;
 }
 
 .text-description{
@@ -107,3 +111,4 @@ h2 {
     color: var(--light-gray);
     margin-bottom: 2rem;
 }
+
