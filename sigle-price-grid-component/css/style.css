@@ -34,9 +34,10 @@ h1 {
 
 h2 {
     font-size: 1.6rem;
-    color: var(--light-gray);
+    color: white;
     font-weight: 400;
     line-height: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .join {
@@ -58,12 +59,51 @@ h2 {
     color: var(--grayish-blue);
 }
 
+.prince-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.price-period{
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-left: 0.5rem;
+    color: hsl(204, 43%, 93%, 0.4);
+}
+
+.price{
+    font-size: 2.5rem;
+    color: white;
+}
+
 .sign-up {
     background-color: var(--cyan-dark);
     grid-area: sign-up;
 }
 
+.sign-up > button {
+    background-color: var(--bright-yellow);
+    width: 95%;
+    padding: 1rem;
+    /* text-decoration: none; */
+    font-size: 1.1rem;
+    color: var(--light-gray);
+    margin-bottom: 1.8rem;
+    font-weight: 700;
+    border-radius: 0.4rem;
+    border: none;
+    box-shadow: 0 3px 8px #6d6c6c94;
+}
+
 .why-us {
     background-color: var(--cyan);
     grid-area: why-us;
+}
+
+.text-description{
+    line-height: 1.7rem;
+    font-size: 1.3rem;
+    color: var(--light-gray);
+    margin-bottom: 2rem;
 }
